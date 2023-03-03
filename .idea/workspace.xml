@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29b0d38d-2fb3-419f-979d-dfc8926e908f" name="Changes" comment="membuat project laravel">
+      <change afterPath="$PROJECT_DIR$/.idea/course-laravel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/sanctum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/lang/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belajar-laravel-dasar/webpack.mix.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.2" />
+  <component name="ProjectId" id="2MVffaxjlUdjKdGYDG3pZVSetk2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29b0d38d-2fb3-419f-979d-dfc8926e908f" name="Changes" comment="" />
+      <created>1677857782739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677857782739</updated>
+      <workItem from="1677857786346" duration="332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="membuat project laravel" />
+    <option name="LAST_COMMIT_MESSAGE" value="membuat project laravel" />
+  </component>
+</project>
