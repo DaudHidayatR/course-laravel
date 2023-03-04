@@ -10,7 +10,7 @@ use Tests\TestCase;
 
 class DependencyInjectionTest extends TestCase
 {
-    public function testDependencyInejction()
+    public function testDependencyInjection()
     {
     $foo = new Foo();
     $bar = new Bar($foo);
