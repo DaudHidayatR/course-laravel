@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Tests\\Feature\\AppEnviromentTest::testAppEnv":5},"times":{"Tests\\Feature\\EnvirementTest::testGetEnv":0.201,"Tests\\Feature\\EnvirementTest::testDefaultEnv":0.166,"Tests\\Feature\\AppEnviromentTest::testAppEnv":0.144}}
