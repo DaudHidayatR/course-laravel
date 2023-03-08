@@ -16,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/daud', function (){
+    return "Hello Daud Hidayat Ramadhan";
+});
+
+Route::redirect('/youtube', '/daud');
+
+
+Route::fallback(function (){
+    return "404 By Daud Hidayat Ramadhan";
+});
