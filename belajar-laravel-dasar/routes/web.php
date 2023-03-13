@@ -35,3 +35,24 @@ Route::get('/hello-again', function (){
 Route::get('/hello-world', function (){
     return view("hello.world", ['name' => 'daud']);
 });
+Route::get('/products/{id}', function ($productId){
+    return "Product $productId";
+});
+Route::get('/products/{product}/items/{item}', function ($productId, $itemId){
+    return "Product $productId, item $itemId";
+});
+
+Route::get('/categories/{id}', function ($categoryId){
+    return "Category $categoryId";
+})->where('id', '[0-9]+');
+
+Route::get('/users/{id?}', function ($userId = '404'){
+    return "User $userId";
+});
+Route::get('/conflict/daud', function (){
+    return "conflict daud";
+});
+Route::get('/conflict/{name}', function ($name){
+   return "name $name";
+});
+
