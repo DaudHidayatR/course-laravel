@@ -67,5 +67,14 @@ class RoutingTest extends TestCase
             ->assertSeeText('conflict daud');
     }
 
+    public function testNamedRoute()
+    {
+        $this->get('/product/1234')
+            ->assertSeeText('Link http://localhost/products/1234');
+
+        $this->get('/product-redirect/12345')
+            ->assertSeeText('/products/1234');
+    }
+
 
 }

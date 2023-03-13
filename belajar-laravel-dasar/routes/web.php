@@ -37,14 +37,14 @@ Route::get('/hello-world', function (){
 });
 Route::get('/products/{id}', function ($productId){
     return "Product $productId";
-});
+})->name('product.detail');
 Route::get('/products/{product}/items/{item}', function ($productId, $itemId){
     return "Product $productId, item $itemId";
-});
+})->name('product.items.detail');
 
 Route::get('/categories/{id}', function ($categoryId){
     return "Category $categoryId";
-})->where('id', '[0-9]+');
+})->where('id', '[0-9]+')->name('category.detail');
 
 Route::get('/users/{id?}', function ($userId = '404'){
     return "User $userId";
@@ -55,4 +55,10 @@ Route::get('/conflict/daud', function (){
 Route::get('/conflict/{name}', function ($name){
    return "name $name";
 });
-
+Route::get('/product/{id}', function ($id){
+    $link = \route('product.detail', ['id'=> $id]);
+    return "Link $link";
+});
+Route::get('/product-redirect/{id}', function ($id){
+    return redirect()->route('product.detail', ['id'=>$id]);
+});
