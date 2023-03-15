@@ -16,7 +16,10 @@ class VerifyCsrfToken extends Middleware
         '/input/hello/first',
         '/input/hello/input',
         '/input/hello/array',
-        '/input/type'
+        '/input/type',
+        '/input/filter/only',
+        '/input/filter/except',
+        '/input/filter/merge'
     ];
 
 }
