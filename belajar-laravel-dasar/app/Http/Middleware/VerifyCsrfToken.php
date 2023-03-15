@@ -12,7 +12,11 @@ class VerifyCsrfToken extends Middleware
      * @var array<int, string>
      */
     protected $except = [
-        '/input/hello', '/input/hello/first','/input/hello/input','/input/hello/array'
+        '/input/hello',
+        '/input/hello/first',
+        '/input/hello/input',
+        '/input/hello/array',
+        '/input/type'
     ];
 
 }
