@@ -19,7 +19,8 @@ class VerifyCsrfToken extends Middleware
         '/input/type',
         '/input/filter/only',
         '/input/filter/except',
-        '/input/filter/merge'
+        '/input/filter/merge',
+        '/file/upload'
     ];
 
 }
