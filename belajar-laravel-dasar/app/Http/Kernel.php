@@ -2,7 +2,9 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\contohMiddleware;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
+use Tests\Feature\contohMiddlewareTest;
 
 class Kernel extends HttpKernel
 {
@@ -43,6 +45,9 @@ class Kernel extends HttpKernel
             'throttle:api',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
+        'DHR' => [
+            'contoh:DHR,401'
+        ]
     ];
 
     /**
@@ -53,6 +58,7 @@ class Kernel extends HttpKernel
      * @var array<string, class-string|string>
      */
     protected $routeMiddleware = [
+        'contoh'=> contohMiddleware::class,
         'auth' => \App\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'auth.session' => \Illuminate\Session\Middleware\AuthenticateSession::class,

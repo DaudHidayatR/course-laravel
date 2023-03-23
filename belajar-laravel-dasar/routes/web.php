@@ -66,19 +66,19 @@ Route::get('/controller/hello/request', [\App\Http\Controllers\HelloController::
 Route::get('/controller/hello/{name}', [\App\Http\Controllers\HelloController::class, 'hello']);
 
 Route::get('/input/hello', [\App\Http\Controllers\InputController::class, 'hello']);
-Route::post('/input/hello', [\App\Http\Controllers\InputController::class, 'hello']);
+Route::post('/input/hello', [\App\Http\Controllers\InputController::class, 'hello'])->withoutMiddleware(\App\Http\Middleware\VerifyCsrfToken::class);
 
-Route::post('/input/hello/first', [\App\Http\Controllers\InputController::class, 'helloFirstName']);
-Route::post('/input/hello/input', [\App\Http\Controllers\InputController::class, 'helloInput']);
-Route::post('/input/hello/array', [\App\Http\Controllers\InputController::class, 'helloArray']);
+Route::post('/input/hello/first', [\App\Http\Controllers\InputController::class, 'helloFirstName'])->withoutMiddleware(\App\Http\Middleware\VerifyCsrfToken::class);
+Route::post('/input/hello/input', [\App\Http\Controllers\InputController::class, 'helloInput'])->withoutMiddleware(\App\Http\Middleware\VerifyCsrfToken::class);
+Route::post('/input/hello/array', [\App\Http\Controllers\InputController::class, 'helloArray'])->withoutMiddleware(\App\Http\Middleware\VerifyCsrfToken::class);
 
 
-Route::post('/input/type', [\App\Http\Controllers\InputController::class, 'inputType']);
-Route::post('/input/filter/only', [\App\Http\Controllers\InputController::class, 'filterOnly']);
-Route::post('/input/filter/except', [\App\Http\Controllers\InputController::class, 'filterExcept']);
-Route::post('/input/filter/merge', [\App\Http\Controllers\InputController::class, 'filterMerge']);
+Route::post('/input/type', [\App\Http\Controllers\InputController::class, 'inputType'])->withoutMiddleware(\App\Http\Middleware\VerifyCsrfToken::class);
+Route::post('/input/filter/only', [\App\Http\Controllers\InputController::class, 'filterOnly'])->withoutMiddleware(\App\Http\Middleware\VerifyCsrfToken::class);
+Route::post('/input/filter/except', [\App\Http\Controllers\InputController::class, 'filterExcept'])->withoutMiddleware(\App\Http\Middleware\VerifyCsrfToken::class);
+Route::post('/input/filter/merge', [\App\Http\Controllers\InputController::class, 'filterMerge'])->withoutMiddleware(\App\Http\Middleware\VerifyCsrfToken::class);
 
-Route::post('/file/upload', [\App\Http\Controllers\FileController::class, 'upload']);
+Route::post('/file/upload', [\App\Http\Controllers\FileController::class, 'upload'])->withoutMiddleware(\App\Http\Middleware\VerifyCsrfToken::class);
 
 Route::get('/response/hello', [\App\Http\Controllers\ResponseController::class, 'response']);
 Route::get('/response/header', [\App\Http\Controllers\ResponseController::class, 'header']);
@@ -98,3 +98,11 @@ Route::get('redirect/name', [\App\Http\Controllers\RedirectController::class, 'r
 Route::get('redirect/name/{name}', [\App\Http\Controllers\RedirectController::class, 'redirectHello'])->name('redirect-hello');
 Route::get('redirect/action', [\App\Http\Controllers\RedirectController::class, 'redirectAction']);
 Route::get('redirect/away', [\App\Http\Controllers\RedirectController::class, 'redirectAway']);
+
+Route::get('middleware/api', function (){
+    return "ok";
+})->middleware(['contoh:DHR,401']);
+
+Route::get('middleware/group', function (){
+    return "group";
+})->middleware(['DHR']);

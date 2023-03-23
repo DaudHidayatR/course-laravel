@@ -12,15 +12,15 @@ class VerifyCsrfToken extends Middleware
      * @var array<int, string>
      */
     protected $except = [
-        '/input/hello',
-        '/input/hello/first',
-        '/input/hello/input',
-        '/input/hello/array',
-        '/input/type',
-        '/input/filter/only',
-        '/input/filter/except',
-        '/input/filter/merge',
-        '/file/upload'
+//        '/input/hello',
+//        '/input/hello/first',
+//        '/input/hello/input',
+//        '/input/hello/array',
+//        '/input/type',
+//        '/input/filter/only',
+//        '/input/filter/except',
+//        '/input/filter/merge',
+//        '/file/upload'
     ];
 
 }
