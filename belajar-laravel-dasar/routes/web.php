@@ -102,6 +102,11 @@ Route::controller(\App\Http\Controllers\RedirectController::class)->prefix('redi
     Route::get('/name/{name}', 'redirectHello')->name('redirect-hello');
     Route::get('/action', 'redirectAction');
     Route::get('/away', 'redirectAway');
+    Route::get('/named', function (){
+//        return route('redirect-hello', ['name' => 'Daud']);
+//        return url()->route('redirect-hello', ['name' => 'Daud']);
+        return \Illuminate\Support\Facades\URL::route('redirect-hello', ['name' => 'Daud']);
+    });
 });
 
 
@@ -114,9 +119,18 @@ Route::middleware(['contoh:DHR,401'])->prefix('/middleware')->controller(\App\Ht
     });
 });
 
+
+Route::get('url/action', function (){
+//    return action([\App\Http\Controllers\FormController::class, 'form']);
+//    return url()->action([\App\Http\Controllers\FormController::class, 'form']);
+    return \Illuminate\Support\Facades\URL::action([\App\Http\Controllers\FormController::class, 'form']);
+});
+
 Route::controller(\App\Http\Controllers\FormController::class)->group(function (){
     Route::get('/form', 'form');
     Route::post('/form','submitForm');
 });
 
-
+Route::get('/url/current', function (){
+    return \Illuminate\Support\Facades\URL::full();
+});
