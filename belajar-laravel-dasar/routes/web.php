@@ -137,3 +137,13 @@ Route::get('/url/current', function (){
 
 Route::get('session/create', [\App\Http\Controllers\SessionController::class, 'createSession']);
 Route::get('session/get', [\App\Http\Controllers\SessionController::class, 'getSession']);
+Route::get('error/sample', function (){
+    throw new Exception('Sample Error');
+});
+Route::get('error/manual', function (){
+    report(new Exception('sample error'));
+    return 'ok';
+});
+Route::get('error/validation', function (){
+    throw new \App\Exceptions\ValidationException('Validation Error');
+});
