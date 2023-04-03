@@ -1,3 +1,6 @@
 [submodule "laravel-todolist"]
 	path = laravel-todolist
 	url = git@github.com:DaudHidayatR/laravel-todolist.git
+[submodule "laravel-logging"]
+	path = laravel-logging
+	url = git@github.com:DaudHidayatR/laravel-logging.git
