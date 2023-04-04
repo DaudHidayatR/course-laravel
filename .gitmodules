@@ -4,3 +4,6 @@
 [submodule "laravel-logging"]
 	path = laravel-logging
 	url = git@github.com:DaudHidayatR/laravel-logging.git
+[submodule "belajar-laravel-blade-template"]
+	path = belajar-laravel-blade-template
+	url = git@github.com:DaudHidayatR/belajar-laravel-blade-template.git
