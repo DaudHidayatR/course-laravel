@@ -7,3 +7,6 @@
 [submodule "belajar-laravel-blade-template"]
 	path = belajar-laravel-blade-template
 	url = git@github.com:DaudHidayatR/belajar-laravel-blade-template.git
+[submodule "belajar-laravel-collection"]
+	path = belajar-laravel-collection
+	url = git@github.com:DaudHidayatR/belajar-laravel-collection.git
