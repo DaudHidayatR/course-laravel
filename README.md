@@ -7,7 +7,7 @@ ini merupakan proses pembelajaran Laravel. Berikut cakupan materi yang dipelajar
 5. Laravel Collection
 
 
-====================================================================================
+===========================================================================
 
 this is a Laravel learning process. The following is the scope of the material studied:
 1. Basic Laravel
