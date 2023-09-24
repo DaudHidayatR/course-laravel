@@ -22,3 +22,6 @@
 [submodule "belajar-laravel-eloquent-api-resource"]
 	path = belajar-laravel-eloquent-api-resource
 	url = https://github.com/DaudHidayatR/belajar-laravel-eloquent-api-resource.git
+[submodule "belajar-laravel-restful-api"]
+	path = belajar-laravel-restful-api
+	url = https://github.com/DaudHidayatR/belajar-laravel-restful-api.git
