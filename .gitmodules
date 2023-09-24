@@ -16,3 +16,6 @@
 [submodule "belajar-laravel-eloquent"]
 	path = belajar-laravel-eloquent
 	url = https://github.com/DaudHidayatR/belajar-laravel-eloquent.git
+[submodule "belajar-laravel-validation"]
+	path = belajar-laravel-validation
+	url = https://github.com/DaudHidayatR/belajar-laravel-validation.git
