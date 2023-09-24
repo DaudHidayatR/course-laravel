@@ -5,7 +5,11 @@ ini merupakan proses pembelajaran Laravel. Berikut cakupan materi yang dipelajar
 3. Laravel Logging
 4. Laravel Blade Template
 5. Laravel Collection
-
+6. Laravel Database
+7. laravel Eloquent
+8. laravel Validation
+9. laravel Eloquent API
+10. laravel RESTFul API
 
 ===========================================================================
 
@@ -15,3 +19,8 @@ this is a Laravel learning process. The following is the scope of the material s
 3. Laravel Logging
 4. Laravel Blade Templates
 5. Laravel Collection
+6. Laravel Database
+7. laravel Eloquent
+8. laravel Validation
+9. laravel Eloquent API
+10. laravel RESTFul API
