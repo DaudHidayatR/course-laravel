@@ -10,3 +10,6 @@
 [submodule "belajar-laravel-collection"]
 	path = belajar-laravel-collection
 	url = git@github.com:DaudHidayatR/belajar-laravel-collection.git
+[submodule "belajar-laravel-database"]
+	path = belajar-laravel-database
+	url = https://github.com/DaudHidayatR/belajar-laravel-database.git
