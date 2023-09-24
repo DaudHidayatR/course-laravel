@@ -13,3 +13,6 @@
 [submodule "belajar-laravel-database"]
 	path = belajar-laravel-database
 	url = https://github.com/DaudHidayatR/belajar-laravel-database.git
+[submodule "belajar-laravel-eloquent"]
+	path = belajar-laravel-eloquent
+	url = https://github.com/DaudHidayatR/belajar-laravel-eloquent.git
